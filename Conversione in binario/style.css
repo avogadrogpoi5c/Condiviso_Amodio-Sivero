@@ -1,3 +1,19 @@
-p{
-	font-size:17px;
+fieldset{
+  position: absolute;
+  box-shadow:22px 25px 13px #1a1919;
+  vertical-align:middle;
+  text-align:left;
+  background-color:#da5d00;
+  width: 500px;
+  height: 370px;
+  border: 1px solid #934801;
+  border-radius: 10px;
+  padding: 50px;
+  margin: 50px;
+  font-size:175%;
+
+}
+
+body{
+    background-color:#eaa000;
 }
