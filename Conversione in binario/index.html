@@ -1,16 +1,23 @@
 <!DOCTYPE html>
 <html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
 <body>
-
-<p>Decimal to binary conversion.</p>
-<p>Enter the values.</p>
-
-<form id="frm1" >
-  First name: <input type="text" name="fname"><br>
-  Last name: <input type="text" name="lname"><br><br>
-  <input type="button" value="Submit">
-</form>
-
-
+  <center><h1>Conversione in binario - Amodio Sivero</h1></center>
+  <fieldset>
+    <label for="text1">Numeri decimali</label><br>
+    <input type="number" id="text1" name="decimali" oninput="Conversione()"></textarea>
+    <br><br>
+    <label for="text2">Numeri binari</label><br>
+    <textarea disabled id="text2" name="binari"></textarea>
+  </fieldset>
+  <script src="script.js" theme="blue" defer></script>
 </body>
+
 </html>
